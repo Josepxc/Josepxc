@@ -1,14 +1,39 @@
-### Boas vindas ao meu perfil  💙
-
-Meu nome é jose Armando
-
-- Estou estudando na Alura
-- [Alura](https://www.alura.com.br/?srsltid=AfmBOopJ4aehcY51_A8260DYNtFIpyAYMftOUgeNIiJM0EcTSXaSEQGz)
-- Estou me desenvolvendo na JavaScript
-- Utilizo esse espaço para minha organização e compartilhamento dos meus projetos desenvolvidos
-
-- ### você pode entrar em contacto comigo 📫
-
-- jose.salinas@escola.pr.gov.br
-
-- ![](https://media.tenor.com/VvM6KwyV49wAAAAj/pigeonpls-pigeon-dance.gif)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard</title>
+</head>
+<body>
+    <main>
+        <section id="container">
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        O que é JavaScript?
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        O JavaScript é uma linguagem de programação
+                    </div>
+                </div>
+            </article>
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        O que é CSS?
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        O CSS é uma linguagem de estilização
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
+    </footer>
+</body>
+</html>
